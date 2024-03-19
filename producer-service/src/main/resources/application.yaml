@@ -1,3 +1,7 @@
 spring:
   application:
     name: producer-service
+
+  kafka:
+    producer:
+      bootstrap-servers: localhost:29092
